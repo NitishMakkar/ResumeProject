@@ -14,7 +14,7 @@ A simple REST API built with Node.js, Express, and MySQL to manage resume detail
 
 1. Clone the repository:
    ```
-   git clone https://github.com/NitishMakkar/ResumeProject
+   git clone https://github.com/NitishMakkar/ResumeProject.git
    cd ResumeProject
    ```
 
