@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS resumedb;
+
+USE resumedb;
+
+CREATE TABLE IF NOT EXISTS resumes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    currentJobTitle VARCHAR(255) NOT NULL,
+    currentJobDescription TEXT NOT NULL,
+    currentJobCompany VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
